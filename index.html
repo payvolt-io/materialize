@@ -44,18 +44,21 @@
               <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Home</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Who</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#whom">For Whom</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">How</a>
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#offers">Offerings</a>
             </li>
           </ul>
-          <button
-            id="navAction"
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            Contact us!
-          </button>
+          <a href="#contact">
+            <button
+              id="navAction"
+              class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            >
+              Contact us!
+            </button>
+          </a>
+          
         </div>
       </div>
       <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -72,9 +75,12 @@
           <p class="leading-normal text-2xl mb-8">
             Wheter you already know what product you want to build, or just getting started looking for ideas. you came to the right place!
           </p>
-          <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Book A Free Introduction!
-          </button>
+          <a href="#contact">
+            <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Book A Free Introduction!
+            </button>
+          </a>
+          
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
@@ -101,7 +107,7 @@
         </g>
       </svg>
     </div>
-    <section class="bg-white border-b py-8">
+    <section class="bg-white border-b py-8" id="whom">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Are You In Those Stages?
@@ -412,83 +418,118 @@
         </div>
       </div>
     </section>
-    <section class="bg-white border-b py-8">
+    <section class="bg-white border-b py-8" id="offers">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Our Services
+          Some of what we offer
         </h2>
+        
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
+
+        
+
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
+                Embark on an exciting adventure
               </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                Navigate the start up journey
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                Given that the next step in your vision is sometimes unclear, we will craft you a tailor-made plan according to your goals. the plan will include practical steps provided with our guidence and expertise, so that you will be accompanied through out this journey with out doubts.
+                <br>
+                  Heres a sample out of a plan provided as an example.
               </p>
             </a>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-start">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
-            </div>
+            <form action="https://formsubmit.co/kiril.yoanidi@payvolt.io" method="POST">
+              <input type="hidden" name="what" value="he wants a example roadmap" />
+              <div class="flex flex-col justify-center items-center">
+                <input type="email" name="email" id="email_plan" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="your@mail.com" required>
+              </div>
+              <div class="flex items-center justify-start">
+                <button type="submit" class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                  Send Me Example Roadmap Plan
+                </button>
+              </div>
+            </form>
+            
+            
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
+                Talk the talk, and walk the walk.
               </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                Create opportunities by being knowledgeable 
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                Especially for first-time enterpreneurs, lack of knowledge and experience has emmence effect on their success.
+                this translates to how they present themsleves infront of crucial personalties such as investors. this hurts their chances of creating a break through in their buisness.
+                by having an aura of someone who knows what he is doing and has clear set of goals and initiatives, you will have an easier time interacting with people that will have a positive effect on your goal.
+                
+                <br>
+                get a free cheat sheet of common terms.
               </p>
             </a>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-center">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
-            </div>
+            <form action="https://formsubmit.co/kiril.yoanidi@payvolt.io" method="POST">
+              <input type="hidden" name="what" value="he wants a terms cheat-sheet" />
+              <div class="flex flex-col justify-center items-center">
+                <input type="email" name="email" id="email_know" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="your@mail.com" required>
+              </div>
+              <div class="flex items-center justify-center">
+                <button type="submit" class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                  Send Me Terms Cheat Sheet
+                </button>
+              </div>
+            </form>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                xGETTING STARTED
+                Watch Out
               </p>
               <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
+                Avoid common mistakes and traps
               </div>
               <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                Every new enterpreneur meets pitfall and mistakes that are common accross the startup journey, those are sometimes not so obvious or even look like a good choice. in addition other players in the game will lay mines for you, or will be out to exploit you. we will make sure you are not doing bad decisions or being taken advantge of by malicous actors.
+                <br>
+                here are some mistakes that are made by first-timers.
+                
               </p>
             </a>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-end">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
-            </div>
+            <form action="https://formsubmit.co/kiril.yoanidi@payvolt.io" method="POST">
+              <input type="hidden" name="what" value="he wants 10 common mistakes" />
+              <div class="flex flex-col justify-center items-center">
+                <input type="email" name="email" id="email_mist" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="your@mail.com" required>
+              </div>
+              <div class="flex items-center justify-end">
+                <button type="submit" class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                  Send me 10 common mistakes.
+                </button>
+              </div>
+            </form>
           </div>
         </div>
+        
       </div>
     </section>
-    <section class="bg-gray-100 py-8">
+    <!--<section class="bg-gray-100 py-8">
       <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Pricing
@@ -568,7 +609,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
     <!-- Change the colour #f8fafc to match the previous section colour -->
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -591,34 +632,34 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 mb-12">
+    <section class="container mx-auto text-center py-6 mb-12" id="contact">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        Call to Action
+        Let's Talk!
       </h2>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
-        Main Hero Message to sell yourself!
+        Meet us and tell us your story, we would like to discuss ideas and innovation with you.
       </h3>
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Action!
-      </button>
+      <form action="https://formsubmit.co/kiril.yoanidi@payvolt.io" method="POST">
+        <input type="hidden" name="what" value="hot lead phone number" />
+        <div class="flex flex-col justify-center items-center">
+          <input type="text" name="phone" id="phone" class="bg-gray-50 text-center border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="#your-phone" required>
+        </div>
+
+        <button type="submit" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Contact us
+        </button>
+      </form>
     </section>
     <!--Footer-->
     <footer class="bg-white">
       <div class="container mx-auto px-8">
         <div class="w-full flex flex-col md:flex-row py-6">
           <div class="flex-1 mb-6 text-black">
-            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-              <!--Icon from: http://www.potlabicons.com/ -->
-              <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-                <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
-                <path
-                  class="plane-take-off"
-                  d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
-                />
-              </svg>
+            <a class="text-black-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+              <img  src = "distribute-icon-black.svg" class="h-16 fill-current inline" alt="icon"/>
               Materialize
             </a>
           </div>
@@ -651,13 +692,13 @@
             <p class="uppercase text-gray-500 md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="https://www.facebook.com/kiril.ioanidi/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                <a href="https://www.linkedin.com/in/kiril-yoanidi-380633222/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                <a href="https://www.instagram.com/kirilyoanidi/" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Instagram</a>
               </li>
             </ul>
           </div>
@@ -761,6 +802,19 @@
           t = t.parentNode;
         }
         return false;
+      }
+    </script>
+    <script>
+      email_plan = document.getElementById("email_plan");
+      email_plan.addEventListener('change', (e) => syncEmails(e.target.value));
+      email_know = document.getElementById("email_know");
+      email_know.addEventListener('change', (e) => syncEmails(e.target.value));
+      email_mist = document.getElementById("email_mist");
+      email_mist.addEventListener('change', (e) => syncEmails(e.target.value));
+      function syncEmails(email) {
+        email_plan.value = email;
+        email_know.value = email;
+        email_mist.value = email;
       }
     </script>
   </body>
