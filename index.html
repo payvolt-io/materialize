@@ -51,28 +51,55 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light fixed-top" dir="ltr">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" dir="ltr">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img  src = "./assets/distribute-icon-black.svg" width="48" height="48" alt="Materialize-Logo"/>
-                    Materialize
+                <a class="navbar-brand text-primary" href="#">
+                    <img  src = "./assets/distribute-icon-primary.svg" height="48" alt="Materialize-Logo"/>
+                    
                 </a>
-                <a class="nav-item nav-link" href="#intro">?למה</span></a>
+                <a href="#" class="navbar-brand text-primary fw-bold">Materialize</a>
+                <a href="#" class="navbar-brand text-primary fw-bold">-</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                       
+                        <a href="#" class="navbar-brand text-primary fw-bold">From Nothing To Something</a>
+                        <a href="#intro" class="nav-item nav-link text-primary fw-bold" dir="rtl">ייעוץ סטארטאפים</a>
+                        <a href="#offers" class="nav-item nav-link text-primary fw-bold" dir="rtl">השירותים שלנו</a>
+                        <a href="#about" class="nav-item nav-link text-primary fw-bold" tabindex="-1" dir="rtl">מי אנחנו</a>
+                        
+                    </div>
+                    
+                    <div class="navbar-nav ms-auto">
+                        <ul class="list-inline mb-0" dir="rtl">
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.facebook.com/kiril.ioanidi/" target="_blank"><i class="bi-facebook fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.linkedin.com/in/kiril-yoanidi-380633222/" target="_blank"><i class="bi-linkedin fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.tiktok.com/@kiril.yoanidi" target="_blank"><i class="bi-tiktok fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.youtube.com/@Materialize.services" target="_blank"><i class="bi-youtube fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="https://discord.gg/4ykG2pkSVJ" target="_blank"><i class="bi-discord fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.instagram.com/kirilyoanidi/" target="_blank"><i class="bi-instagram fs-3"></i></a>
+                            </li>
+                        </ul>
+                        <a href="#signup" class="nav-item nav-link text-primary fw-bold" dir="rtl">צור קשר</a>
+                    </div>
+                </div>
+                <!-- <a class="nav-item nav-link" href="#intro">?למה</span></a>
                 <a class="nav-item nav-link" href="#offers">?מה</span></a>
                 <a class="nav-item nav-link" href="#about">?מי</span></a>
-                <ul class="list-inline mb-0">
-                   
-                    <li class="list-inline-item">
-                        <a class="nav-item nav-link" href="https://www.instagram.com/kirilyoanidi/" target="_blank"><i class="bi-instagram fs-3"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="nav-item nav-link" href="https://discord.gg/4ykG2pkSVJ" target="_blank"><i class="bi-discord fs-3"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="nav-item nav-link" href="https://www.youtube.com/@Materialize.services" target="_blank"><i class="bi-youtube fs-3"></i></a>
-                    </li>
-                </ul>
-                <a class="btn btn-primary nav-item" href="#signup">התחל תהליך</a>
+                <a class="nav-item nav-link" href="#foot">קהילה</span></a> -->
             </div>
         </nav>
         
@@ -85,7 +112,7 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white" >
                             <!-- Page heading-->
-                            <img  src = "./assets/distribute-icon.svg" width="128" height="128" alt="Materialize-Logo"/>
+                            <img class="mt-5"  src = "./assets/distribute-icon.svg" width="128" height="128" alt="Materialize-Logo"/>
                             <h1 class="mb-2">הבית החם ליזם המתחיל</h1>
                             <h3 class="mb-2">99% מהסטארטאפים נכשלים!</h3>
                             <h3 class="mb-2">בוא ביחד נשנה את הסטטיסטיקה!</h3>
@@ -115,7 +142,7 @@
                         <a href="#valid" class="text-decoration-none text-reset">
                             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                 <div class="features-icons-icon d-flex"><i class="bi-box m-auto text-primary"></i></div>
-                                <h3>אפיון מוצר</h3>
+                                <h3>היתכנות מוצר</h3>
                                 <p class="lead mb-0">התאמת המוצר לקהל הלקוחות המיועד</p>
                             </div>
                         </a>
@@ -270,13 +297,6 @@
                         שמעתי והכרתי יזמים שונים והבנתי שהיעוד שלי הוא לעזור לעולם בקידום הרבה סטארטאפים.
                     </strong>
                 </p>
-                <p class="lead fw-bold text-center">
-                    מעוניין להוציא את היזם שבך?
-                </p>
-                <p class="lead fw-bold text-center">
-                    השאר פרטים כאן למטה!
-                </p>
-                
             </div>
         </section>
         <!-- Call to Action-->
@@ -284,33 +304,23 @@
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
-                        <h2 class="mb-4">מוכן לצאת למסע?</h2>
+                        <h2 class="mb-4">מעוניין להוציא את היזם שבך?</h2>
                         <h2 class="mb-4">השאר פרטים וניצור קשר בהקדם!</h2>
                         <!-- yair.zafrany@materialize.services -->
                         <form class="form-subscribe" id="contactFormFooter" action="https://formsubmit.co/kiril.yoanidi@materialize.services" method="POST">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                  <label for="firstName">שם פרטי</label>
+                            <div class="mb-3">
+                                <label for="firstName">שם</label>
+                                <div class="input-group">
                                   <input type="text" class="form-control" id="firstName" name="firstName" placeholder="" value="" required>
                                   <div class="invalid-feedback">
                                     Valid first name is required.
                                   </div>
                                 </div>
-                                <div class="col-md-6 mb-3">
-                                  <label for="lastName">שם משפחה</label>
-                                  <input type="text" class="form-control" id="lastName" name="lastName" placeholder="" value="" required>
-                                  <div class="invalid-feedback">
-                                    Valid last name is required.
-                                  </div>
-                                </div>
                               </div>
                   
                               <div class="mb-3">
-                                <label for="username">טלפון</label>
+                                <label for="phone">טלפון</label>
                                 <div class="input-group">
-                                  <div class="input-group-prepend">
-                                    <span class="input-group-text">@</span>
-                                  </div>
                                   <input type="text" class="form-control" id="phone" name="phone" placeholder="05XXXXXXXX" required>
                                   <div class="invalid-feedback" style="width: 100%;">
                                     Your phone is required.
@@ -335,7 +345,7 @@
             
         </section>
         <!-- Footer-->
-        <footer class="footer bg-light" dir="ltr">
+        <footer class="footer bg-light" dir="ltr" id="foot">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
