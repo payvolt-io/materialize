@@ -11376,6 +11376,36 @@ header.masthead h1, header.masthead .h1 {
   opacity: 0.5;
 }
 
+.test-a {
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/table-meeting.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.test-a:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.test-b:before {
+  content: "";
+  position: relative;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
