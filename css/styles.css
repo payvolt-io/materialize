@@ -11345,6 +11345,63 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+.idea-sect {
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/lightbulb-green.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.idea-sect:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.confirm-sect {
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/wire-brain-abstract.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.confirm-sect:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.full-sect {
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/city-network-ball.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.full-sect:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -11368,36 +11425,6 @@ header.masthead h1, header.masthead .h1 {
 .call-to-action:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-}
-
-.test-a {
-  position: relative;
-  background-color: #343a40;
-  background: url("../assets/img/table-meeting.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-.test-a:before {
-  content: "";
-  position: absolute;
-  background-color: #1c375e;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-}
-
-.test-b:before {
-  content: "";
-  position: relative;
   background-color: #1c375e;
   height: 100%;
   width: 100%;
