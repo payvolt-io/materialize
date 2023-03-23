@@ -11402,6 +11402,25 @@ header.masthead h1, header.masthead .h1 {
   opacity: 0.5;
 }
 
+.showcase-sect {
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/tech-abstract-circles.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.showcase-sect:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
