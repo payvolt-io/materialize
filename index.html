@@ -256,9 +256,7 @@
                         <p class="lead fw-bold m-0">ראית פעם טירון רץ לקבל "לא" מהמפקד שלו?</p>
                         <p class="lead fw-bold m-0">זה בדיוק אתה רק בלי מדים.</p>
                         <p class="lead fw-bold m-0">משקיעים קיטטו רגליים בשביל להגיע להיות משקיעים</p>
-                        <p class="lead fw-bold m-0">ולא כי הכינו להם מצגות.</p>
-                        <p class="lead fw-bold mb-5">כל פניה לא נכונה יכולה להוביל לטעויות קריטיות.</p>
-                        
+                        <p class="lead fw-bold m-0">ולא כי הכינו להם מצגות.</p>                        
                        
                     </div>
                     <div class="col-xl-6">
@@ -413,14 +411,14 @@
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-xl-12">
-                        <h1 class="mb-4 pt-5"> <i class="bi-rocket m-auto text-primary"></i>מה התכנית כוללת?</h1>
+                        <h1 class="mb-4 pt-5"> <i class="bi-rocket m-auto text-primary"></i>מה התוכנית כוללת?</h1>
                     </div>
                 </div>
                 <div class="row justify-content-center text-end">
                     <div class="col-xl-4">
                         <p class="lead fw-bold">
                             <i class="bi-compass m-auto text-primary"></i>
-                            תכנית מותאמת
+                            תוכנית מותאמת אישית
                         </p>
                     </div>
                     <div class="col-xl-2">
@@ -469,7 +467,7 @@
                     <div class="col-xl-2">
                         <p class="lead fw-bold">
                             <i class="bi-envelope-exclamation m-auto text-primary"></i>
-                            הכרת קשרים
+                            יצירת קשרים \ נטוורקינג
                         </p>
                     </div>
                 </div>
@@ -988,20 +986,26 @@
                                   Please enter a valid email address for shipping updates.
                                 </div>
                               </div>
-                              
+                              <script>
+                                
+                                btn_text = (txt) => {
+                                    const btn = document.getElementById("form-submit");
+                                    btn.innerText = txt;
+                                }
+                              </script>
                               <div class="mb-3">
                                 <!-- <label for="email">אני רוצה</label> -->
-                                <input type="radio" class="btn-check" name="options-outlined" value="details" id="success-outlined" autocomplete="off" checked>
+                                <input type="radio" class="btn-check" name="options-outlined" value="details" id="success-outlined" onclick="btn_text('קבע פגישה')" autocomplete="off" checked>
                                 <label class="btn btn-outline-primary fw-bold text-white" for="success-outlined">קבל פרטים</label>
 
-                                <input type="radio" class="btn-check " name="options-outlined" value="book" id="success-outlined1" autocomplete="off">
+                                <input type="radio" class="btn-check " name="options-outlined" value="book" id="success-outlined1" onclick="btn_text('קבל ספרון')"; autocomplete="off">
                                 <label class="btn btn-outline-primary fw-bold text-white" for="success-outlined1">קבל ספרון</label>
 
-                                <input type="radio" class="btn-check" name="options-outlined" value="other" id="success-outlined2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="options-outlined" value="other" id="success-outlined2" onclick="btn_text('צור קשר')" autocomplete="off">
                                 <label class="btn btn-outline-primary fw-bold text-white" for="success-outlined2">פניה עסקית</label>
 
                               <hr class="mb-4">
-                              <button class="btn btn-primary btn-lg btn-block fw-bold" type="submit">קבע פגישה</button>
+                              <button class="btn btn-primary btn-lg btn-block fw-bold" id="form-submit" type="submit">קבע פגישה</button>
                         </form>
                     </div>
                 </div>
